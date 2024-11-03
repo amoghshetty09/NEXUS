@@ -3,7 +3,7 @@ import React from 'react';
 
 const Footer = () => (
     <footer className="footer">
-        <p>&copy; 2023 Nexus Club, PES College</p>
+        <p>&copy; 2024 Nexus Club, PES College</p>
     </footer>
 );
 
