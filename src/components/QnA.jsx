@@ -30,7 +30,7 @@ function QnA() {
         <AnimationWrapper>
             <div className="qna-container">
                 <h2>Q&A</h2>
-                <p>Ask your doubts related to our club </p>
+                <p>Ask your doubts related to our club and answers will be shared to your e-mail id.</p>
                 
                 <div className="qna-frame">
                     <form onSubmit={handleSubmit(onSubmit)} className="qna-form">
