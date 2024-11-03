@@ -1,0 +1,61 @@
+.home-background {
+    background-color: #000000; /* Black background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Change font for a modern look */
+  
+}
+
+.content {
+    padding: 20px;
+    color: #00ff00; /* Green text color for the main content */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Subtle text shadow for better readability */
+}
+
+h1 {
+    font-size: 3em; /* Larger font size for the title */
+    margin-bottom: 20px; /* Spacing below the title */
+    animation: fadeIn 1s ease; /* Animation effect */
+}
+
+img {
+    max-width: 80%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border: 5px solid #007bff; /* Blue border around the image */
+    border-radius: 15px; /* Rounded corners for the image */
+    margin-bottom: 20px; /* Spacing below the image */
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* Shadow effect for image */
+}
+
+.recruitment-frame {
+    border: 2px solid #007bff; /* Blue border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 40px; /* Increased padding for larger frame */
+    margin-top: 20px;
+    background-color: #1c1c1c; /* Darker background for the frame */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
+    display: inline-block; /* Allow frame to resize */
+    color: #1e90ff; /* Dark sky blue text color */
+    font-size: 1.5em; /* Increase text size for better visibility */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow effect */
+}
+
+.recruitment-frame:hover {
+    transform: scale(1.05); /* Enlarge frame on hover */
+    box-shadow: 0 8px 30px rgba(0, 123, 255, 0.5); /* Add shadow effect on hover */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,46 @@
+
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000; 
+}
+
+.header, .footer {
+  background-color: #1a1a1a;  
+  padding: 1em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1em;
+}
+
+.nav-links a {
+  color: #e0e0e0;          
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color:red;       
+}
+
+footer {
+  text-align: center;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+h1, h2 {
+  color: red;              
+}
+
+p {
+  color: red;        
+}
