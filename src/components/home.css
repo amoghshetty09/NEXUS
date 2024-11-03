@@ -1,52 +1,52 @@
 .home-background {
-    background-color: #000000; /* Black background color */
+    background-color: #000000; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
     text-align: center;
-    font-family: 'Arial', sans-serif; /* Change font for a modern look */
+    font-family: 'Arial', sans-serif; 
   
 }
 
 .content {
     padding: 20px;
-    color: #00ff00; /* Green text color for the main content */
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); /* Subtle text shadow for better readability */
+    color: #00ff00;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
 }
 
 h1 {
-    font-size: 3em; /* Larger font size for the title */
-    margin-bottom: 20px; /* Spacing below the title */
-    animation: fadeIn 1s ease; /* Animation effect */
+    font-size: 3em; 
+    margin-bottom: 20px; 
+    animation: fadeIn 1s ease;
 }
 
 img {
-    max-width: 80%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio */
-    border: 5px solid #007bff; /* Blue border around the image */
-    border-radius: 15px; /* Rounded corners for the image */
-    margin-bottom: 20px; /* Spacing below the image */
-    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); /* Shadow effect for image */
+    max-width: 80%;
+    height: auto;
+    border: 5px solid #007bff; 
+    border-radius: 15px;
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3); 
 }
 
 .recruitment-frame {
-    border: 2px solid #007bff; /* Blue border color */
-    border-radius: 10px; /* Rounded corners */
-    padding: 40px; /* Increased padding for larger frame */
+    border: 2px solid #007bff; 
+    border-radius: 10px;
+    padding: 40px; 
     margin-top: 20px;
-    background-color: #1c1c1c; /* Darker background for the frame */
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
-    display: inline-block; /* Allow frame to resize */
-    color: #1e90ff; /* Dark sky blue text color */
-    font-size: 1.5em; /* Increase text size for better visibility */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow effect */
+    background-color: #1c1c1c;
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    color: #1e90ff;
+    font-size: 1.5em; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
 }
 
 .recruitment-frame:hover {
-    transform: scale(1.05); /* Enlarge frame on hover */
-    box-shadow: 0 8px 30px rgba(0, 123, 255, 0.5); /* Add shadow effect on hover */
+    transform: scale(1.05); 
+    box-shadow: 0 8px 30px rgba(0, 123, 255, 0.5);
 }
 
 @keyframes fadeIn {

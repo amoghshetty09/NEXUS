@@ -1,4 +1,4 @@
-// src/components/AnimationWrapper.jsx
+
 import { motion } from 'framer-motion';
 import React from 'react';
 
